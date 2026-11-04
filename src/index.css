@@ -16,3 +16,9 @@ html, body, #root {
     color: black;
     min-height: 100%;
 }
+.footer-links a{
+  display: inline-block;
+  text-decoration:none;
+  color:rgb(97, 97, 97);
+  margin-bottom: .7rem;
+}
