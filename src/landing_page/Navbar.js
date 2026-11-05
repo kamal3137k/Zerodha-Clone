@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar sm:navbar-expand fixed-top  bg-inverse ">
+    <nav className="navbar sm:navbar-expand fixed-top  bg-inverse  ">
       <div className="container">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           <img src="media/logo.svg" style={{ width: "28%" }} />
-        </a>
+        </Link>
         <button
           className="btn-icon navbar-toggler"
           type="button"
@@ -38,49 +39,49 @@ function Navbar() {
           <div className="drawer-body  justify-content-around ">
             <ul className="navbar-nav ">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active fg-black me-4"
                   aria-current="page"
-                  href="#"
+                  to="/"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active fg-black me-4"
                   aria-current="page"
-                  href="#"
+                  to="about"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active fg-black me-4"
                   aria-current="page"
-                  href="#"
+                  to="product"
                 >
                   Product
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active fg-black me-4"
                   aria-current="page"
-                  href="#"
+                  to="/pricing"
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active fg-black me-4"
                   aria-current="page"
-                  href="#"
+                  to="/support"
                 >
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
