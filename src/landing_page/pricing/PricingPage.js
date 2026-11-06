@@ -1,12 +1,13 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import Hero from './Hero';
+import OpenAccount from "../OpenAccount";
 import Brokerage from './Brokerage';
-import Footer from '../Footer';
 function PricingPage() {
     return ( 
         <>
             <Hero/>
+            <OpenAccount/>
+            <div className='border-top mx-auto  my-12' style={{width:"80%" , borderColor:"#e4d9d9"}}></div>
             <Brokerage/>
         </>
      );

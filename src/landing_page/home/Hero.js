@@ -1,7 +1,7 @@
 import React from "react";
 function Hero() {
   return (
-    <div className="container  text-center p-5 mt-12">
+    <div className="container  text-center p-5 ">
       <div className="row mb-12 justify-content-center">
         <img
           src="media/homeHero.png"

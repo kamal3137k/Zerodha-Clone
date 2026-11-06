@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar sm:navbar-expand fixed-top  bg-inverse  ">
+    <nav className="navbar sm:navbar-expand fixed-top  bg-inverse p-4 ">
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img src="media/logo.svg" style={{ width: "28%" }} />
